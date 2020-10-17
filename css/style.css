@@ -1,0 +1,72 @@
+.splash {
+  height: 100vh;
+  position: relative;
+  background-image: url("https://images.pexels.com/photos/134469/pexels-photo-134469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center center;
+  object-fit: cover;
+  background-size: cover;
+  /* background-attachment: fixed;*/
+}
+
+/* navigation */
+.splash ul li {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.splash h4 {
+  color: gold;
+}
+
+a {
+  text-decoration: none;
+  /*wylacza podkreslenia w linku*/
+  color: #ffffff;
+  padding-left: 10px;
+}
+
+.splash-inner {
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.splash h1, h2 {
+  color: blue;
+}
+
+.splash h1 {
+  font-size: 48px;
+}
+
+.splash h2 {
+  font-size: 32px;
+}
+
+.btn {
+  background-color: #fed136;
+  display: inline-block;
+  min-width: 160px;
+  margin: 24px auto 0 auto;
+  padding: 16px;
+  border-radius: 5px;
+  font-family: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-width: 2px;
+  border-style: solid;
+  background-position: 100% 0;
+  background-size: 300%;
+}
+
+.services h1 {
+  margin: auto;
+}
+/*# sourceMappingURL=style.css.map */
