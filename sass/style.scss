@@ -18,7 +18,7 @@
 .splash h4 {
     color: gold;
 }
-a {
+.splash a {
     text-decoration: none;  /*wylacza podkreslenia w linku*/
     color: #ffffff;
     padding-left: 10px;
@@ -66,9 +66,36 @@ a {
     
 }
 
+/*services*/
+
+.services {
+    margin: right;
+}
+
+
+
+
+
+
+
+/* our-portfolio*/
 .our-portfolio {
     background-color: #f7f7f7;
 }
+
+.footer ul li {
+
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 12px;
+    color: blue;  
+}
+
+.footer li a {
+
+    color: #000000;  
+}
+
 
 
 
