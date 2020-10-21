@@ -174,4 +174,32 @@ h4 {
 section {
   padding: 60px 0;
 }
+
+@media (max-width: 320px) {
+  .splash h2 {
+    font-size: 20px;
+  }
+  .splash h1 {
+    font-size: 23px;
+  }
+  .page-title {
+    top: 30%;
+  }
+  .btn {
+    min-width: 130px;
+    margin: 10px auto 0 auto;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 760px) {
+  .title {
+    text-align: center;
+  }
+  .footer {
+    text-align: center;
+  }
+}
 /*# sourceMappingURL=style.css.map */
