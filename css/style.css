@@ -7,7 +7,6 @@ body {
   margin: auto;
   font-size: 16px;
   line-height: 1.7;
-  font-family: #ffffff;
   color: black;
 }
 
@@ -24,7 +23,7 @@ body {
 /* navigation */
 .navigation {
   text-align: right;
-  font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+  font-family: "Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace";
   letter-spacing: 4px;
   font-weight: 800;
   padding: 10px;
@@ -48,17 +47,27 @@ body {
   padding-left: 10px;
 }
 
-.splash a .splash {
+.splash-inner {
   position: relative;
+  width: 100%;
+  height: 100%;
 }
 
-.splash-inner {
+.page-title {
   position: absolute;
   width: 100%;
   top: 50%;
   left: 50%;
-  margin-right: -50%;
   transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h3, p {
+  margin: 0px;
+}
+
+p {
+  padding-bottom: 10px;
 }
 
 .splash h1, h2 {
@@ -91,11 +100,6 @@ body {
 }
 
 /*services*/
-.services {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .title {
   text-align: center;
   padding: 0px 0 30px 0;
@@ -103,10 +107,6 @@ body {
 
 .cart-portfolio {
   text-align: center;
-}
-
-h3 {
-  font: bold;
 }
 
 /* our-portfolio*/
@@ -132,11 +132,6 @@ h3 {
 
 .cart-description {
   text-align: center;
-  padding: 1px 0;
-}
-
-.cart-description p {
-  font: bold;
 }
 
 /*footer*/
@@ -151,7 +146,25 @@ h3 {
 }
 
 .footer p {
-  padding: 10px 0;
+  padding: 20px 0;
+}
+
+i.fab {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: center;
+      justify-content: center;
+  background: #000000;
+  font-size: 20px;
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
 }
 
 h4 {
@@ -160,12 +173,5 @@ h4 {
 
 section {
   padding: 60px 0;
-}
-
-@media (max-width: 450px) {
-  section {
-    -ms-flex-direction: column;
-        flex-direction: column;
-  }
 }
 /*# sourceMappingURL=style.css.map */
