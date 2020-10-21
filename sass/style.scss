@@ -6,7 +6,6 @@ body {
     margin: auto;
     font-size: 16px;
     line-height: 1.7;
-    font-family: #ffffff;
     color: black;
 }
 
@@ -28,7 +27,7 @@ body {
 
 .navigation {
     text-align: right;
-    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+    font-family: "Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace";
     letter-spacing: 4px;
    
     font-weight: 800;
@@ -50,12 +49,11 @@ body {
     color: #ffffff;
     padding-left: 10px;
 
-.row {
-    position: relative;
-    
-}    
-}
 .splash-inner {
+    position: relative;        
+}
+
+.page-title {
     position: absolute;
     width: 100%;
     top: 50%;
@@ -145,9 +143,7 @@ h3 {
     padding: 1px 0;
 }
 
-.cart-description p {
-    font: bold;
-}
+
 /*footer*/
 
 
@@ -172,13 +168,7 @@ h3 {
 h4 {
     font-size: 44px;
 }
+
  section {
      padding: 60px 0;
  }
- @media  (max-width: 450px) {
-    section {
-        flex-direction: column;
-    }
-        }
-
-    
